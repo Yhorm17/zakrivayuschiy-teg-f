@@ -8,6 +8,13 @@
 Если эти классы поменять в HTML, скрипт перестанет работать. Будьте аккуратны.
 */
 
+const heartTemplate = document.querySelector('#heart-template');
+
+document.querySelectorAll('.card__icon-button').forEach((button) => {
+  const heart = heartTemplate?.content.firstElementChild.cloneNode(true);
+  if (heart) button.append(heart);
+});
+
 const likeHeartArray = document.querySelectorAll('.like-icon');
 const likeButtonArray = document.querySelectorAll('.card__like-button');
 const iconButtonArray = document.querySelectorAll('.card__icon-button');
@@ -39,3 +46,8 @@ function setButtonText(heart, button) {
     );
   }
 }
+
+const dialog = document.querySelector('#save-dialog');
+const openDialogButton = document.querySelector('[data-open-dialog]');
+
+openDialogButton?.addEventListener('click', () => dialog.showModal());
