@@ -1,14 +1,16 @@
 :root {
-  --accent-color: #000;
   --page-color: #fff;
-  --contour-color: #000;
-  --animation-fill-color: #f00;
+  --header-height: 368px;
+  --accent-color: #000;
   --text-color: #fff;
+  --content-width: clamp(23.438rem, 48.6vw, 43.75rem);
+  --background: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+
   --title-font: 'PressStart2P', fantasy;
   --main-font: 'Inter-Variable', sans-serif;
   --main-font-weight: 410;
   --title-font-weight: 715;
-  --content-width: clamp(23.438rem, 48.6vw, 43.75rem);
-  --background: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-  --header-height: 368px;
+
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
 }
