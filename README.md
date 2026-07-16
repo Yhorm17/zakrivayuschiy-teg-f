@@ -1,1 +1,1 @@
-https://yhorm17.github.io/zakrivayuschiy-teg-f/
+https://yhorm17.github.io/zakrivayuschiy-teg-f/index.html
