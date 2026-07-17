@@ -153,7 +153,8 @@
   mix-blend-mode: difference;
 }
 .card__icon-button {
-  transform: translate(-2px, -2px);
+  display: flex;
+  place-content: center;
   inline-size: 39px;
   block-size: 36px;
   border: 2px solid transparent;
